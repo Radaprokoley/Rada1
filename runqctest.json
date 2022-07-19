@@ -1,0 +1,27 @@
+[
+	{
+		"flowcell" : "H7WJHDSXY",
+		"run_version" : 2,
+		"demux_execution_id" : null,
+		"flowcell_type" : "S4",
+		"cycle_kit" : "230",
+		"read_cycle_sequence" : "101 | 8 | 8 | 101",
+		"run_number" : 63,
+		"instrument_serial_number" : "NVSQ-A00734",
+		"instrument_name" : "Zeus A",
+		"instrument_type" : "NovaSeq 6000",
+		"instrument_position" : "A",
+		"sequencing_start_date" : "2020-07-15 21:06:22.000000",
+		"sequencing_end_date" : "2020-07-17 02:11:42.000000",
+		"run_name" : "Zeus_Clinical_WES-WTS_15Jul2020",
+		"basespace_url" : "https://sema4genomics.basespace.illumina.com/run/196236083/Zeus_Clinical_WES-WTS_15Jul2020",
+		"fcp_id" : "NPP1310",
+		"reads_pf" : 25523618362,
+		"bases" : 2552361836200,
+		"num_known_barcodes_undetected" : 320,
+		"pct_clusters_pf" : 83.24,
+		"clusters_pf" : 1020233191660,
+		"bases_gt_q30" : 4591962096795,
+		"pct_bases_gt_q30" : 4579665422720.0048
+	}
+]

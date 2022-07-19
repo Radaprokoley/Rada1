@@ -1,0 +1,49 @@
+The Illumina Sample QC API was run successfully using ss_sample_name='ISM506697-2' and lane_run='H5WM3DSXY-3_4'
+While validating the RESPONSE field and values following differences in the data were found. In this report new_value specifies the values from ZION database and old_value defines the values from API call
+{
+    "type_changes": {
+        "root['specimen_aliquot_qc_list'][0]['open_lis_order_list'][0]['open_lis_order_item_list'][0]['lis_date_initiated']": {
+            "old_type": "NoneType",
+            "new_type": "str",
+            "old_value": null,
+            "new_value": "2020-05-15 20:55:00"
+        },
+        "root['specimen_aliquot_qc_list'][0]['open_lis_order_list'][0]['open_lis_order_item_list'][1]['lis_date_initiated']": {
+            "old_type": "NoneType",
+            "new_type": "str",
+            "old_value": null,
+            "new_value": "2020-05-15 20:55:00"
+        },
+        "root['specimen_aliquot_qc_list'][0]['open_lis_order_list'][0]['open_lis_order_item_list'][2]['lis_date_initiated']": {
+            "old_type": "NoneType",
+            "new_type": "str",
+            "old_value": null,
+            "new_value": "2020-05-15 20:55:00"
+        },
+        "root['specimen_aliquot_qc_list'][0]['open_lis_order_list'][0]['open_lis_order_item_list'][3]['lis_date_initiated']": {
+            "old_type": "NoneType",
+            "new_type": "str",
+            "old_value": null,
+            "new_value": "2020-05-15 20:55:00"
+        },
+        "root['specimen_aliquot_qc_list'][0]['open_lis_order_list'][0]['open_lis_order_item_list'][4]['lis_date_initiated']": {
+            "old_type": "NoneType",
+            "new_type": "str",
+            "old_value": null,
+            "new_value": "2020-05-15 20:55:00"
+        }
+    },
+    "dictionary_item_removed": [
+        "root['specimen_aliquot_qc_list'][0]['fastq_s3_locations']"
+    ],
+    "values_changed": {
+        "root['specimen_aliquot_qc_list'][0]['bases_gt_q30']": {
+            "new_value": 62852193590,
+            "old_value": 63717282731
+        },
+        "root['specimen_aliquot_qc_list'][0]['pct_of_lane']": {
+            "new_value": "3: 2.79, 4: 2.79",
+            "old_value": "3: 2.7942, 4: 2.86217"
+        }
+    }
+}

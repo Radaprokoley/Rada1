@@ -1,0 +1,93 @@
+{
+    "status": 200,
+    "message": "OK",
+    "specimen_aliquot_qc_list": [
+        {
+            "specimen_aliquot_run_version": 0,
+            "lane_run": "H5WM3DSXY-3_4",
+            "specimen_aliquot_run_pool_list": [
+                {
+                    "pool_id": 1017,
+                    "pool_name": "ILP359"
+                }
+            ],
+            "clusters_pf": 333760268,
+            "reads_pf": 667520536,
+            "pct_bases_gt_q30": 95.45367,
+            "bases_gt_q30": 62852193590,
+            "ss_received_project": "RPJ51",
+            "pct_perf_barcode": 97.58,
+            "pct_one_mismatch_barcode": 2.42,
+            "mean_qual_score": 36.0,
+            "clusters_perfect_barcode": 325694481,
+            "clusters_one_mismatch_barcode": 8065787,
+            "pct_of_lane": "3: 2.79, 4: 2.79",
+            "extraction_number": null,
+            "repeat_number": null,
+            "specimen_name": "RSM603018",
+            "lane_run_version_list": [
+                0
+            ],
+            "specimen_aliquot_name": "ISM506697-2",
+            "index_sequence": "CAAGCTAG+ACATAGCG",
+            "specimen_aliquot_form": "RNA",
+            "control": false,
+            "tumor_type": "PCM",
+            "tumor_blast_pct": null,
+            "collection_method": null,
+            "indication": null,
+            "specimen_source": null,
+            "src_tube_barcode": null,
+            "ny_origin": "Unknown",
+            "specimen_aliquot_type": "Tumor",
+            "na_type": "RNA",
+            "assay_code": "TRUSEQSTRAND_v1",
+            "ntc": false,
+            "lims_project": "RPJ51",
+            "specimen_aliquot_form_origin": "RNA",
+            "open_lis_order_list": [
+                {
+                    "lis_order_id": "20251317",
+                    "lis_order_version": 1,
+                    "sex": "U",
+                    "lp_accession_id": "AC2278",
+                    "lp_order_id": "2530",
+                    "lp_patient_id": "LP1999",
+                    "patient": "H0195971",
+                    "open_lis_order_item_list": [
+                        {
+                            "lis_order_item_version": 1,
+                            "lab_number": "20251317",
+                            "lis_date_initiated": "2020-05-15 20:55:00",
+                            "test_code": "O2PC1"
+                        },
+                        {
+                            "lis_order_item_version": 1,
+                            "lab_number": "20251317ON",
+                            "lis_date_initiated": "2020-05-15 20:55:00",
+                            "test_code": "ONORM"
+                        },
+                        {
+                            "lis_order_item_version": 1,
+                            "lab_number": "20251317OT",
+                            "lis_date_initiated": "2020-05-15 20:55:00",
+                            "test_code": "OTUM"
+                        },
+                        {
+                            "lis_order_item_version": 1,
+                            "lab_number": "20251317PO",
+                            "lis_date_initiated": "2020-05-15 20:55:00",
+                            "test_code": "POCGC"
+                        },
+                        {
+                            "lis_order_item_version": 1,
+                            "lab_number": "20251317PR",
+                            "lis_date_initiated": "2020-05-15 20:55:00",
+                            "test_code": "PRCGC"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
